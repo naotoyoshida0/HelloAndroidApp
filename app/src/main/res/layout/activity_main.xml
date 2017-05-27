@@ -9,10 +9,13 @@
     android:paddingleft="16dp"
     android:paddingright="16dp"
     android:paddingtop="16dp"
-    tools:context="jp.techacademy.yoshida.naoto.myapplication.MainActivity">
+    tools:context="jp.techacademy.yoshida.naoto.myapplication.MainActivity"
+    android:baselineAligned="false">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Android!"/>
+        android:text="Hello Android!"
+        android:textSize="40sp" />
 </LinearLayout>
